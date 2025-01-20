@@ -23,8 +23,20 @@
     <header>
       <!-- place navbar here -->
     </header>
-    <main>
-      <div class="card" id="poke-container" style="width: 18rem"></div>
+    <main id="flex-main">
+      <h1>Poke-Dex!</h1>
+      <div class="search-container">
+        <input
+          type="text"
+          id="search-input"
+          name="search-input"
+          placeholder="Find that Pokemon"
+        />
+      </div>
+
+      <div class="result-card">
+        <ul id="poke-list"></ul>
+      </div>
     </main>
     <footer>
       <!-- place footer here -->
