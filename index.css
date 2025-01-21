@@ -19,3 +19,19 @@
   width: 30%;
   border: 3px solid black;
 }
+
+#poke-list {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.poke-item {
+  margin-right: 20px;
+  text-align: center;
+  margin-top: 10px;
+}
+
+#search-input {
+  width: 15rem;
+}
